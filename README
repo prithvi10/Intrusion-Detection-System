@@ -1,0 +1,10 @@
+This repository contains the machine learning implementation of the Intrusion Detection System. it uses the backpropogation algorithm 
+to train neural network written in Octave-Matlab.
+I have refered the code of Andrew NG tutorials' on Coursera and used the same to predict Intrusion accuracy on training set itself.
+
+The dataset used is a small version of KDD dataset for IDS. 
+the training data is used in such a way that only the numerical entries of the dataset are used in calculation. Thus the fields 
+like the "protocol" etc are eliminated. The dataset information is shown in the papers folder in the repo.
+
+I have used only 7000 training examples each with 37 features described in the "papers to refer" folder's first pdf file.
+The accuracy obtained is 83% and more can be achived if more training data is made available.
